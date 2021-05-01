@@ -72,14 +72,7 @@ class ChatSession extends Model
         if ($this->level === 3) {
             if ($user_input == '*') {
                 $this->update(['level' => 2]);
-                switch ($this->prev_response) {
-                    case '1':
-                        return ChatSessionResponseHandler::level2_1Response($this->language);
-                    case '2':
-                        return ChatSessionResponseHandler::level2_2Response($this->language);
-                    default:
-                        return 'Failed to send you a proper message.Try again later!';
-                }
+                return ChatSessionResponseHandler::level1Response($this->language);
             }
 
 
