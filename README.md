@@ -33,9 +33,12 @@ write static methods for each level.
 ## Installtion
 
 ### Clone repository
+ 
+ 
+Use SSH
 
 ```
-git clone https://github.com/enamanja/performance101.git
+git clone git@github.com:Fraganya/twilio-hook.git
 ```
 
 
