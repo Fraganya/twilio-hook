@@ -1,10 +1,9 @@
 
 # twilio-hook
-***
 
 Simple Twilio Whatsapp Chatbot webhook built with Laravel.
 
-##Intro
+## Intro
 
 Easily serve a custom webhook for your twilio Whatsapp chatbot.
 Intended for people who want to run a custom webhook that follows a USSD like structured
@@ -34,9 +33,12 @@ write static methods for each level.
 ## Installtion
 
 ### Clone repository
+ 
+ 
+Use SSH
 
 ```
-git clone https://github.com/enamanja/performance101.git
+git clone git@github.com:Fraganya/twilio-hook.git
 ```
 
 
@@ -69,7 +71,7 @@ Set the application key by running
 php artisan key:generate
 ```
 
-###Twilio Configuration
+### Twilio Configuration
 
 In your Twilio console , configure your whatsapp bot settings and configure them in your
 *.env* file.
