@@ -69,7 +69,7 @@ Set the application key by running
 php artisan key:generate
 ```
 
-###Twilio Configuration
+### Twilio Configuration
 
 In your Twilio console , configure your whatsapp bot settings and configure them in your
 *.env* file.
