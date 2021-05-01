@@ -1,6 +1,5 @@
 
 # twilio-hook
-***
 
 Simple Twilio Whatsapp Chatbot webhook built with Laravel.
 
