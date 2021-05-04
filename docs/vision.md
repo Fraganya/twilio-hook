@@ -1,8 +1,8 @@
-#Intro
+# Intro
 The vision for this project is for it to be an easy and configurable
 app developers can use to run a custom webhook.
 
-#Background
+# Background
 Chatbots normally (At least according to my limited knowledge) respond to messages by use of keywords.
 This is fine for most use cases but in a situation where you would like to control the flow of user interaction,
 (Like in a USSD) this becomes a challenge.
@@ -10,7 +10,7 @@ This is fine for most use cases but in a situation where you would like to contr
 You have to write session management logic to track the user's position in the interaction process. This project seeks to abstract that so the developer can focus on writing the logic.
 So basically this project seeks to develop/implement a configurable *chat session management* for chatbots.
 
-#Project Features
+# Project Features
 
 At least the project should be able to support the following:
 
