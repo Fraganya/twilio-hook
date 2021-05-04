@@ -30,7 +30,7 @@ write static methods for each level.
 ,something like a JSON tree of the steps and the hook app auto handles the responses.
 
 
-## Installtion
+## Installation
 
 ### Clone repository
  
