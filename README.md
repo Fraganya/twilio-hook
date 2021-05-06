@@ -1,16 +1,16 @@
 
 # twilio-hook
 
-Simple Twilio Whatsapp Chatbot webhook built with Laravel.
-
+ twilio-hook is a Whatsapp chatbot webhook built with [Laravel](https://laravel.com/).
 ## Intro
 
-Easily serve a custom webhook for your twilio Whatsapp chatbot.
-Intended for people who want to run a custom webhook that follows a USSD like structured
-process, thus a step by step interaction. i.e:
+twilio-hook is intended for anyone who wants to run a custom webhook that follows a USSD-like structure
+process. This is a step-by-step interaction.
+
+ Example below:
 
 > Step 1 - Select Language:
-> 
+>
 >       1. English
 >       2. Chichewa
 >
@@ -19,38 +19,32 @@ process, thus a step by step interaction. i.e:
 >       1. Service 1
 >       2. Service 2
 >       3. Back
-> 
+>
 > ......extra level option sets
 
 
-*This project currently provides an example* requiring the dev to 
+This project *currently* provides an example requiring the dev to
 write static methods for each level.
 
-*The idea* is to have something that a dev can just plug in the necessary data
-,something like a JSON tree of the steps and the hook app auto handles the responses.
+After plugging in the necessary data, the hook app auto handles the responses.
+
+For example, plug-in data might be a JSON tree of  steps.
 
 
-## Installation
+# Installation
 
-### Clone repository
- 
- 
-Use SSH
-
+ Begin by cloning your repository with SSH
 ```
 git clone git@github.com:Fraganya/twilio-hook.git
 ```
 
 
-### Install composer dependencies
 Change into project directory and install composer dependencies
 ```
 composer install
 ```
 
-
-### Install npm dependencies
-For devs , install npm dependencies
+Install npm dependencies
 ```
 npm install
 ```
@@ -73,7 +67,7 @@ php artisan key:generate
 
 ### Twilio Configuration
 
-In your Twilio console , configure your whatsapp bot settings and configure them in your
+In your Twilio console, configure your Whatsapp bot settings and configure them in your
 *.env* file.
 
 - TWILIO_AUTH_SID
@@ -83,9 +77,9 @@ In your Twilio console , configure your whatsapp bot settings and configure them
 
 ### Other Configs
 
-To reflect your running environment, You can update the env parameters such as
+To reflect your running environment, you can update the env parameters such as
 
-#### Database
+##### Database
 
 - Database name
 - Database username
@@ -93,4 +87,4 @@ To reflect your running environment, You can update the env parameters such as
 - Database Port
 - Database host
 
-
+### License
